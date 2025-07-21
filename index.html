@@ -1,1 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partnex.net - Your Operating System for Global Trade</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Inter Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Base page style */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light gray background */
+        }
+        /* Hero section gradient */
+        .hero-gradient {
+            background: linear-gradient(120deg, #f0f9ff 0%, #e0f2fe 100%);
+        }
+        /* Button style */
+        .cta-button {
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.1);
+        }
+        /* Fade-in animation */
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="text-gray-800">
 
+    <!-- 
+        This code is designed to be pasted into a T123 block (HTML code) on the Tilda platform.
+        It includes all necessary styles and scripts.
+        Simply copy and paste all the code below into the T123 block editor.
+    -->
+
+    <div id="partnex-landing">
+
+        <!-- ===== Section 1: Hero ===== -->
+        <header class="hero-gradient">
+            <div class="container mx-auto px-6 py-16 md:py-24 lg:py-32">
+                <div class="max-w-4xl mx-auto text-center fade-in">
+                    <div class="inline-block bg-sky-100 text-sky-700 text-sm font-semibold px-4 py-1 rounded-full mb-4">
+                        For Small & Medium Businesses
+                    </div>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
+                        Global trade got complicated. We made it <span class="text-sky-600">simple</span>.
+                    </h1>
+                    <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-10">
+                        Partnex.net is your all-in-one operating system for international trade. Stop wasting time and money on logistics, payments, and finding reliable partners.
+                    </p>
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
+                        <a href="#demo" class="cta-button bg-sky-600 text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-sky-700">
+                            Get a Demo
+                        </a>
+                        <a href="#problems" class="cta-button bg-white text-gray-800 font-bold py-3 px-8 rounded-lg text-lg hover:bg-gray-50">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- ===== Section 2: Problems ===== -->
+        <section id="problems" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">The world has changed. Is your business ready?</h2>
+                    <p class="text-gray-600 text-lg">In an era of geopolitical fragmentation and supply chain disruptions, SMBs face barriers they've never seen before.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Problem Card 1 -->
+                    <div class="bg-gray-50 p-8 rounded-xl border border-gray-200 fade-in" style="animation-delay: 0.1s;">
+                        <div class="bg-red-100 text-red-600 rounded-lg w-12 h-12 flex items-center justify-center mb-5">
+                            <i data-lucide="shield-alert" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Trust Deficit</h3>
+                        <p class="text-gray-600">50% of SMB trade finance applications are rejected. Fraud risk and the difficulty of vetting partners stall growth.</p>
+                    </div>
+                    <!-- Problem Card 2 -->
+                    <div class="bg-gray-50 p-8 rounded-xl border border-gray-200 fade-in" style="animation-delay: 0.2s;">
+                        <div class="bg-yellow-100 text-yellow-600 rounded-lg w-12 h-12 flex items-center justify-center mb-5">
+                            <i data-lucide="route" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Logistics Labyrinth</h3>
+                        <p class="text-gray-600">Unpredictable customs barriers, rising costs, and supply chain disruptions eat your profits and time.</p>
+                    </div>
+                    <!-- Problem Card 3 -->
+                    <div class="bg-gray-50 p-8 rounded-xl border border-gray-200 fade-in" style="animation-delay: 0.3s;">
+                        <div class="bg-blue-100 text-blue-600 rounded-lg w-12 h-12 flex items-center justify-center mb-5">
+                            <i data-lucide="landmark" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Financial Desert</h3>
+                        <p class="text-gray-600">Complex cross-border payments, high fees, and bank rejections create insurmountable financial hurdles.</p>
+                    </div>
+                    <!-- Problem Card 4 -->
+                    <div class="bg-gray-50 p-8 rounded-xl border border-gray-200 fade-in" style="animation-delay: 0.4s;">
+                        <div class="bg-green-100 text-green-600 rounded-lg w-12 h-12 flex items-center justify-center mb-5">
+                            <i data-lucide="globe-2" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Geopolitical Risks</h3>
+                        <p class="text-gray-600">Sanctions and trade wars create a minefield of regulatory risks, easy to get lost in without expert support.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Section 3: Solution ===== -->
+        <section class="py-16 md:py-24 bg-sky-50">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col lg:flex-row items-center gap-12">
+                    <div class="lg:w-1/2">
+                        <div class="text-left">
+                            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Partnex.net: The Integrated Ecosystem for Your Success</h2>
+                            <p class="text-gray-600 text-lg mb-8">We're not just a marketplace. We are your partner, handling the complexities of international trade so you can focus on growth.</p>
+                        </div>
+                        <div class="space-y-6">
+                            <!-- Solution Point 1 -->
+                            <div class="flex items-start gap-4">
+                                <div class="bg-sky-200 text-sky-700 rounded-full w-10 h-10 flex-shrink-0 flex items-center justify-center">
+                                    <i data-lucide="shield-check" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg">Verification & Trust</h4>
+                                    <p class="text-gray-600">Mandatory KYB (Know Your Business) verification for every member. Work only with reliable, vetted companies.</p>
+                                </div>
+                            </div>
+                            <!-- Solution Point 2 -->
+                            <div class="flex items-start gap-4">
+                                <div class="bg-sky-200 text-sky-700 rounded-full w-10 h-10 flex-shrink-0 flex items-center justify-center">
+                                    <i data-lucide="banknote" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg">Secure Finances</h4>
+                                    <p class="text-gray-600">Integrated multi-currency payments with escrow, trade financing, and risk insurance in one click.</p>
+                                </div>
+                            </div>
+                            <!-- Solution Point 3 -->
+                            <div class="flex items-start gap-4">
+                                <div class="bg-sky-200 text-sky-700 rounded-full w-10 h-10 flex-shrink-0 flex items-center justify-center">
+                                    <i data-lucide="truck" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg">Smart Logistics</h4>
+                                    <p class="text-gray-600">Get quotes, book, and track shipments from top carriers directly on the platform. No more surprises at customs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/2">
+                        <img src="https://placehold.co/600x500/38bdf8/ffffff?text=Partnex.net+Dashboard" 
+                             alt="Partnex.net Platform Dashboard" 
+                             class="rounded-2xl shadow-2xl w-full h-auto">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Section 4: How it Works ===== -->
+        <section class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Getting Started is Simple</h2>
+                    <p class="text-gray-600 text-lg">Just three steps separate you from safe and efficient global trade.</p>
+                </div>
+                <div class="relative">
+                    <!-- Divider line for desktop -->
+                    <div class="hidden lg:block absolute top-1/2 left-0 w-full h-0.5 bg-gray-200" style="transform: translateY(-50%);"></div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+                        <!-- Step 1 -->
+                        <div class="text-center p-6 fade-in" style="animation-delay: 0.1s;">
+                            <div class="relative inline-block">
+                                <div class="bg-sky-600 text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mb-4 mx-auto">1</div>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Sign Up & Get Verified</h3>
+                            <p class="text-gray-600">Complete a quick KYB check, so we and other members know you're a trusted partner.</p>
+                        </div>
+                        <!-- Step 2 -->
+                        <div class="text-center p-6 fade-in" style="animation-delay: 0.2s;">
+                           <div class="relative inline-block">
+                                <div class="bg-sky-600 text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mb-4 mx-auto">2</div>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Find Partners & Seal the Deal</h3>
+                            <p class="text-gray-600">Discover vetted suppliers or buyers. Close deals with smart contracts protected by escrow.</p>
+                        </div>
+                        <!-- Step 3 -->
+                        <div class="text-center p-6 fade-in" style="animation-delay: 0.3s;">
+                            <div class="relative inline-block">
+                                <div class="bg-sky-600 text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mb-4 mx-auto">3</div>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Manage & Ship</h3>
+                            <p class="text-gray-600">Pay, insure, and arrange shipping in a few clicks, tracking the entire process online.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ===== Section 5: Comparison ===== -->
+        <section class="py-16 md:py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Why Us? The Clear Difference</h2>
+                    <p class="text-gray-600 text-lg">Legacy platforms were built for a different era. Partnex.net is designed for today's reality.</p>
+                </div>
+                <div class="max-w-4xl mx-auto">
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                        <table class="w-full text-left">
+                            <thead class="bg-gray-100">
+                                <tr>
+                                    <th class="p-4 md:p-6 font-bold text-lg">Feature</th>
+                                    <th class="p-4 md:p-6 font-bold text-lg text-center">Legacy Platforms</th>
+                                    <th class="p-4 md:p-6 font-bold text-lg text-center bg-sky-100 text-sky-800">Partnex.net</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b border-gray-200">
+                                    <td class="p-4 md:p-6 font-semibold">Verification (KYB)</td>
+                                    <td class="p-4 md:p-6 text-center text-red-500"><i data-lucide="x-circle" class="mx-auto w-6 h-6"></i><span class="sr-only">No</span></td>
+                                    <td class="p-4 md:p-6 text-center text-green-500 bg-green-50"><i data-lucide="check-circle-2" class="mx-auto w-6 h-6"></i><span class="sr-only">Yes</span></td>
+                                </tr>
+                                <tr class="border-b border-gray-200">
+                                    <td class="p-4 md:p-6 font-semibold">Integrated Payments with Escrow</td>
+                                    <td class="p-4 md:p-6 text-center text-red-500"><i data-lucide="x-circle" class="mx-auto w-6 h-6"></i><span class="sr-only">No</span></td>
+                                    <td class="p-4 md:p-6 text-center text-green-500 bg-green-50"><i data-lucide="check-circle-2" class="mx-auto w-6 h-6"></i><span class="sr-only">Yes</span></td>
+                                </tr>
+                                <tr class="border-b border-gray-200">
+                                    <td class="p-4 md:p-6 font-semibold">Integrated Logistics</td>
+                                    <td class="p-4 md:p-6 text-center text-red-500"><i data-lucide="x-circle" class="mx-auto w-6 h-6"></i><span class="sr-only">No</span></td>
+                                    <td class="p-4 md:p-6 text-center text-green-500 bg-green-50"><i data-lucide="check-circle-2" class="mx-auto w-6 h-6"></i><span class="sr-only">Yes</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="p-4 md:p-6 font-semibold">Risk Insurance</td>
+                                    <td class="p-4 md:p-6 text-center text-red-500"><i data-lucide="x-circle" class="mx-auto w-6 h-6"></i><span class="sr-only">No</span></td>
+                                    <td class="p-4 md:p-6 text-center text-green-500 bg-green-50"><i data-lucide="check-circle-2" class="mx-auto w-6 h-6"></i><span class="sr-only">Yes</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Section 6: Call to Action (CTA) ===== -->
+        <section id="demo" class="py-16 md:py-24 bg-sky-600 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <div class="max-w-3xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Take Your Business Global?</h2>
+                    <p class="text-sky-100 text-lg mb-10">Join the platform built to protect and grow your business in the new era of global trade. Request a demo and see the power of Partnex.net for yourself today.</p>
+                    <div class="bg-white rounded-lg p-2 max-w-lg mx-auto shadow-lg">
+                        <form class="flex flex-col sm:flex-row gap-2">
+                            <input type="email" placeholder="Your work email" class="w-full px-4 py-3 rounded-md text-gray-800 focus:outline-none focus:ring-2 focus:ring-sky-500" required>
+                            <button type="submit" class="cta-button bg-sky-600 text-white font-bold py-3 px-6 rounded-md hover:bg-sky-700 w-full sm:w-auto">
+                                Request a Demo
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Section 7: Footer ===== -->
+        <footer class="bg-gray-800 text-gray-400">
+            <div class="container mx-auto px-6 py-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="text-lg font-bold text-white">Partnex.net</div>
+                    <div class="text-center md:text-right mt-4 md:mt-0">
+                        <p>&copy; 2025 Partnex.net. All rights reserved.</p>
+                        <a href="#" class="hover:text-white">Privacy Policy</a> | <a href="#" class="hover:text-white">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Lucide Icons Script -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+
+</body>
+</html>
