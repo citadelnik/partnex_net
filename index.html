@@ -270,9 +270,191 @@
                 </div>
             </div>
         </section>
-        
-        <!-- ===== NEW Section 5: Find a Partner ===== -->
+
+        <!-- ===== Section 5: Verification Process ===== -->
         <section class="py-16 md:py-24 bg-sky-50">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col lg:flex-row-reverse items-center gap-12 lg:gap-16">
+                    <div class="lg:w-1/2 w-full">
+                        <div class="bg-white p-8 rounded-2xl shadow-2xl border border-gray-200">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Your Company Profile</h3>
+                            <p class="text-gray-500 mb-6">Complete your profile to get verified.</p>
+                            <div class="space-y-4">
+                                <!-- Verification Step 1 -->
+                                <div class="flex items-center gap-4 p-4 bg-gray-50 rounded-lg">
+                                    <div class="w-10 h-10 flex items-center justify-center rounded-full bg-green-100 text-green-600">
+                                        <i data-lucide="check" class="w-6 h-6"></i>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-gray-800">Business Registration</p>
+                                        <p class="text-sm text-gray-500">Official company documents submitted</p>
+                                    </div>
+                                </div>
+                                <!-- Verification Step 2 -->
+                                <div class="flex items-center gap-4 p-4 bg-gray-50 rounded-lg">
+                                    <div class="w-10 h-10 flex items-center justify-center rounded-full bg-green-100 text-green-600">
+                                        <i data-lucide="check" class="w-6 h-6"></i>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-gray-800">Financial Standing</p>
+                                        <p class="text-sm text-gray-500">Credit history and stability check</p>
+                                    </div>
+                                </div>
+                                <!-- Verification Step 3 -->
+                                <div class="flex items-center gap-4 p-4 bg-gray-50 rounded-lg">
+                                    <div class="w-10 h-10 flex items-center justify-center rounded-full bg-green-100 text-green-600">
+                                        <i data-lucide="check" class="w-6 h-6"></i>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-gray-800">Compliance & Sanctions</p>
+                                        <p class="text-sm text-gray-500">Screened against global watchlists</p>
+                                    </div>
+                                </div>
+                                <!-- Result -->
+                                <div class="mt-6 text-center p-4 bg-green-500 text-white rounded-lg flex items-center justify-center gap-3">
+                                    <i data-lucide="shield-check" class="w-6 h-6"></i>
+                                    <span class="text-lg font-bold">You are a Verified Partner!</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/2">
+                        <div class="text-left">
+                            <div class="bg-sky-200 text-sky-700 rounded-lg w-12 h-12 flex items-center justify-center mb-4">
+                                <i data-lucide="user-check" class="w-6 h-6"></i>
+                            </div>
+                            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Become a Trusted Partner</h2>
+                            <p class="text-gray-600 text-lg">Our mandatory KYB (Know Your Business) process is your gateway to a network of reliable companies. We conduct a multi-point verification to ensure every member meets our high standards for security and trustworthiness, so you can trade with absolute confidence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== NEW Section 6: Product Listing ===== -->
+        <section class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+                    <div class="lg:w-1/2 w-full">
+                        <div class="bg-white p-6 rounded-2xl shadow-2xl border border-gray-200">
+                            <h3 class="text-xl font-bold text-gray-800 mb-4">Manage Your Catalog</h3>
+                            <!-- Product Form -->
+                            <div class="space-y-4">
+                                <div>
+                                    <label class="text-sm font-medium text-gray-600">Product Name</label>
+                                    <input type="text" value="Precision Gearbox Model X" class="w-full p-2 mt-1 bg-gray-100 border border-gray-300 rounded-md" disabled>
+                                </div>
+                                <div>
+                                    <label class="text-sm font-medium text-gray-600">Product Image</label>
+                                    <div class="mt-1 flex items-center gap-4 p-3 bg-gray-100 rounded-md border border-gray-300">
+                                        <img src="https://placehold.co/80x60/e0f2fe/0ea5e9?text=Gear" alt="Product Image" class="w-20 h-16 object-cover rounded-md">
+                                        <p class="text-gray-500">gearbox_model_x.jpg</p>
+                                    </div>
+                                </div>
+                                <div class="flex gap-4">
+                                     <div>
+                                        <label class="text-sm font-medium text-gray-600">Price ($)</label>
+                                        <input type="text" value="1,200" class="w-full p-2 mt-1 bg-gray-100 border border-gray-300 rounded-md" disabled>
+                                    </div>
+                                     <div>
+                                        <label class="text-sm font-medium text-gray-600">Stock</label>
+                                        <input type="text" value="10,000 units" class="w-full p-2 mt-1 bg-gray-100 border border-gray-300 rounded-md" disabled>
+                                    </div>
+                                </div>
+                                <button class="w-full cta-button bg-sky-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-sky-700 flex items-center justify-center gap-2">
+                                    <i data-lucide="upload-cloud" class="w-5 h-5"></i>
+                                    Publish to Network
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/2">
+                        <div class="text-left">
+                             <div class="bg-sky-200 text-sky-700 rounded-lg w-12 h-12 flex items-center justify-center mb-4">
+                                <i data-lucide="layout-grid" class="w-6 h-6"></i>
+                            </div>
+                            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">List Once, Sell Everywhere</h2>
+                            <p class="text-gray-600 text-lg mb-6">Effortlessly upload your product catalog. Once published, your products are instantly visible to a global network of verified buyers and distributors, ready to be discovered.</p>
+                            <!-- Published Product Card -->
+                            <div class="bg-white p-4 rounded-xl border border-gray-200 shadow-md">
+                                <h4 class="font-semibold text-gray-600 mb-2 text-sm">Visible to 1,200+ Partners:</h4>
+                                <div class="flex items-center gap-4">
+                                    <img src="https://placehold.co/80x80/e0f2fe/0ea5e9?text=Gear" alt="Product Image" class="w-20 h-20 object-cover rounded-lg flex-shrink-0">
+                                    <div>
+                                        <p class="font-bold text-gray-800">Precision Gearbox Model X</p>
+                                        <p class="text-sm text-gray-500">From: Your Company Inc.</p>
+                                        <p class="text-lg font-bold text-sky-600 mt-1">$1,200 / unit</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ===== Section 7: AI Smart Match ===== -->
+        <section class="py-16 md:py-24 bg-sky-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-12">
+                     <div class="inline-block bg-sky-200 text-sky-700 rounded-lg p-3 mb-4">
+                        <i data-lucide="brain-circuit" class="w-8 h-8"></i>
+                    </div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">AI-Powered Smart Matching</h2>
+                    <p class="text-gray-600 text-lg">Our intelligent algorithms analyze your needs to find the perfect partner. Save time and connect with the right companies from day one.</p>
+                </div>
+                <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-2xl border border-gray-200">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                        <!-- Left Side: Your Request -->
+                        <div>
+                            <h3 class="font-bold text-lg text-gray-800 mb-4">Your Request:</h3>
+                            <div class="space-y-3 text-sm">
+                                <div class="flex justify-between p-3 bg-gray-50 rounded-lg">
+                                    <span class="font-medium text-gray-600">Product:</span>
+                                    <span class="font-semibold text-gray-800">Automotive Parts</span>
+                                </div>
+                                <div class="flex justify-between p-3 bg-gray-50 rounded-lg">
+                                    <span class="font-medium text-gray-600">Destination:</span>
+                                    <span class="font-semibold text-gray-800">Germany</span>
+                                </div>
+                                <div class="flex justify-between p-3 bg-gray-50 rounded-lg">
+                                    <span class="font-medium text-gray-600">Quantity:</span>
+                                    <span class="font-semibold text-gray-800">5,000 units</span>
+                                </div>
+                                <div class="flex justify-between p-3 bg-gray-50 rounded-lg">
+                                    <span class="font-medium text-gray-600">Requirements:</span>
+                                    <span class="font-semibold text-gray-800">ISO 9001 Certified</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Right Side: AI Match -->
+                        <div class="bg-sky-50 p-6 rounded-xl border-2 border-sky-500">
+                             <h3 class="font-bold text-lg text-gray-800 mb-4">Top AI Match:</h3>
+                             <div class="text-center">
+                                 <div class="w-16 h-16 mx-auto rounded-full bg-white flex items-center justify-center shadow-md mb-3">
+                                     <img src="https://placehold.co/64x64/0ea5e9/ffffff?text=BM" alt="Bavarian Motors Logo" class="rounded-full">
+                                 </div>
+                                 <p class="font-bold text-xl text-gray-800">Bavarian Motors GmbH</p>
+                                 <p class="text-sm text-gray-500 mb-4">Munich, Germany</p>
+                                 <div class="flex justify-around">
+                                     <div class="text-center">
+                                         <p class="text-2xl font-bold text-sky-600">98%</p>
+                                         <p class="text-xs text-gray-500">Match Accuracy</p>
+                                     </div>
+                                      <div class="text-center">
+                                         <p class="text-2xl font-bold text-sky-600">95%</p>
+                                         <p class="text-xs text-gray-500">User Satisfaction</p>
+                                     </div>
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Section 8: Find a Partner ===== -->
+        <section class="py-16 md:py-24 bg-white">
             <div class="container mx-auto px-6">
                 <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
                     <div class="lg:w-1/2 w-full">
@@ -291,7 +473,7 @@
                             </div>
                             <div class="space-y-4">
                                 <!-- Partner Card 1 -->
-                                <div class="bg-white p-4 rounded-xl border border-gray-200 flex items-center justify-between transition hover:border-sky-500 hover:shadow-md">
+                                <div class="bg-white p-4 rounded-xl border-2 border-sky-500 flex items-center justify-between shadow-md">
                                     <div>
                                         <p class="font-bold text-gray-800">Bavarian Motors GmbH</p>
                                         <p class="text-sm text-gray-500">Munich, Germany</p>
@@ -339,8 +521,8 @@
             </div>
         </section>
 
-        <!-- ===== NEW Section 6: Communication ===== -->
-        <section class="py-16 md:py-24 bg-white">
+        <!-- ===== Section 9: Communication ===== -->
+        <section class="py-16 md:py-24 bg-sky-50">
             <div class="container mx-auto px-6">
                 <div class="flex flex-col lg:flex-row-reverse items-center gap-12 lg:gap-16">
                     <div class="lg:w-1/2 w-full">
@@ -395,8 +577,8 @@
             </div>
         </section>
 
-        <!-- ===== Section 7: Integrated Widgets ===== -->
-        <section id="widgets" class="py-16 md:py-24 bg-sky-50">
+        <!-- ===== Section 10: Integrated Widgets ===== -->
+        <section id="widgets" class="py-16 md:py-24 bg-white">
             <div class="container mx-auto px-6">
                 <div class="text-center max-w-3xl mx-auto mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Everything in One Place</h2>
@@ -404,7 +586,7 @@
                 </div>
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
                     <!-- Widget 1: Logistics -->
-                    <div class="bg-white p-6 rounded-2xl border border-gray-200 space-y-4 h-full flex flex-col">
+                    <div class="bg-gray-50 p-6 rounded-2xl border border-gray-200 space-y-4 h-full flex flex-col">
                         <div class="flex items-center gap-4">
                             <img src="https://placehold.co/100x40/e5e7eb/4b5563?text=DHL" alt="DHL Logo" class="h-8">
                             <h3 class="text-lg font-bold text-gray-800">Logistics Quote</h3>
@@ -432,7 +614,7 @@
                         <button class="w-full cta-button bg-yellow-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-yellow-600">Get DHL Quote: $3,450</button>
                     </div>
                     <!-- Widget 2: Finance -->
-                    <div class="bg-white p-6 rounded-2xl border border-gray-200 space-y-4 h-full flex flex-col">
+                    <div class="bg-gray-50 p-6 rounded-2xl border border-gray-200 space-y-4 h-full flex flex-col">
                         <div class="flex items-center gap-4">
                             <img src="https://placehold.co/100x40/e5e7eb/4b5563?text=HSBC" alt="HSBC Logo" class="h-8">
                             <h3 class="text-lg font-bold text-gray-800">Trade Finance</h3>
@@ -445,7 +627,7 @@
                         <button class="w-full cta-button bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700">Apply with 1-Click</button>
                     </div>
                     <!-- Widget 3: Insurance -->
-                    <div class="bg-white p-6 rounded-2xl border border-gray-200 space-y-4 h-full flex flex-col">
+                    <div class="bg-gray-50 p-6 rounded-2xl border border-gray-200 space-y-4 h-full flex flex-col">
                          <div class="flex items-center gap-4">
                             <img src="https://placehold.co/100x40/e5e7eb/4b5563?text=Allianz" alt="Allianz Logo" class="h-8">
                             <h3 class="text-lg font-bold text-gray-800">Cargo Insurance</h3>
@@ -461,8 +643,8 @@
             </div>
         </section>
 
-        <!-- ===== Section 8: Comparison ===== -->
-        <section class="py-16 md:py-24 bg-white">
+        <!-- ===== Section 11: Comparison ===== -->
+        <section class="py-16 md:py-24 bg-sky-50">
             <div class="container mx-auto px-6">
                 <div class="text-center max-w-3xl mx-auto mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Why Us? The Clear Difference</h2>
@@ -506,7 +688,7 @@
             </div>
         </section>
 
-        <!-- ===== Section 9: Call to Action (CTA) ===== -->
+        <!-- ===== Section 12: Call to Action (CTA) ===== -->
         <section id="demo" class="py-16 md:py-24 bg-sky-600 text-white">
             <div class="container mx-auto px-6 text-center">
                 <div class="max-w-3xl mx-auto">
@@ -524,7 +706,7 @@
             </div>
         </section>
 
-        <!-- ===== Section 10: Footer ===== -->
+        <!-- ===== Section 13: Footer ===== -->
         <footer class="bg-gray-800 text-gray-400">
             <div class="container mx-auto px-6 py-8">
                 <div class="flex flex-col md:flex-row justify-between items-center">
